@@ -38,11 +38,11 @@ The site should include the following:
   
  - Feature section
  
-  List your top features with an image, text and button for each of them.
+    List your top features with an image, text and button for each of them.
 
-  Footer.
+    Footer.
   
-  A navigational footer with social media links.
+    A navigational footer with social media links.
 
 
 
