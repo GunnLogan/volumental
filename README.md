@@ -55,6 +55,7 @@ Have a quick look at the Volumental website in the inspector tool before you sta
 
 You'll find an index.html and style.css file in the code folder of this repository to get started with.
 
+---
 
 ### Teamwork
 
@@ -62,11 +63,15 @@ We have invited Charlotte Andersson as a guest lecturer in agile and scrum. She 
 
 We suggest trying "mob programming". Mob programming is where one person is in control of a computer and is in charge of writing code, and the rest of the team is the mind - they tell the person typing what to type. As a team, you work towards a common goal. Then, every 15-20 minutes, you change who's in control of the computer (or switch computers).
 
+---
+
 ### Git & GitHub
 
 Working as a team on GitHub takes some getting used to. If two members of your team edit code in the same file in the project and push the code to GitHub, there's a fair chance you'll run into a situation where your code conflicts. You'll have to solve the conflicts as a team and think of your teammates when committing code. **Committing small changes, very regularly makes it MUCH easier to handle conflicts**. Really - commit early and often.
 
 When you do encounter a conflict, don't panic! Follow the [steps here](https://gist.github.com/ccannon94/a75f1f725d33a1834dd7f5feebbc7d4b) to resolve the conflict and then commit the fixed code.
+
+---
 
 ### BOOM: Success!
 
