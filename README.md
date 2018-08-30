@@ -10,7 +10,7 @@ Developed in Stockholm, Sweden, the Volumental solution drives sales, increases 
 
 
 
-### How to complete this project
+### ✅ How to complete this project
 
 Currently our customers are listed on a single page website. Once our customer portfolio grows we would like to create a feature pages for our biggest clients. Your assignment will be to create a stand alone web page dedicated to one of our customers. 
 
@@ -36,7 +36,7 @@ Group 2: Bauer
 
 #### Volumental Design guidelines
 
-https://imgur.com/a/s2aNSlB
+Colours: https://imgur.com/a/s2aNSlB
 
 Potential assets needed: 
 
@@ -58,7 +58,7 @@ You'll find an index.html and style.css file in the code folder of this reposito
 
 ---
 
-### Teamwork
+### 🤝 Teamwork
 
 We have invited Charlotte Andersson as a guest lecturer in agile and scrum. She will give you tools in how you best divide your work and work together in your teams. One of the challenges in this project is to learn how to work as a team. As a web developer this is something you do on a daily basis.
 
@@ -66,7 +66,7 @@ We suggest trying "mob programming". Mob programming is where one person is in c
 
 ---
 
-### Git & GitHub
+### 🖇 Git & GitHub
 
 Working as a team on GitHub takes some getting used to. If two members of your team edit code in the same file in the project and push the code to GitHub, there's a fair chance you'll run into a situation where your code conflicts. You'll have to solve the conflicts as a team and think of your teammates when committing code. **Committing small changes, very regularly makes it MUCH easier to handle conflicts**. Really - commit early and often.
 
