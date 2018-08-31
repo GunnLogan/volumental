@@ -74,7 +74,6 @@ Font: Lato
 
 Have a quick look at the Volumental website in the inspector tool before you start to better inherit design elements to your design. How much margin do they have on the page? What are their headings? Font sizes? And how does this change on mobile and tablet? 
 
-You'll find an index.html and style.css file in the code folder of this repository to get started with.
 
 ---
 
