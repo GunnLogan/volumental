@@ -39,7 +39,7 @@ A navigational footer with social media links.
 The project should follow Volumental's design guidelines and look and feel like a part of their webpage. However, feel free to experiment and make the best possible page to show of their collaboration with your customer. 
 
 ### Volumental’s customers
-Each group will be working on 1 customer page. You'll find **all relevant assets** for your customer in the repository. 
+Each group will be working on 1 customer page. You'll find **all relevant assets** for your customer in the repository. Make sure to edit photos to be in a good format and size.
 
 ### Volumental Design guidelines
 
