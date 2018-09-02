@@ -1,4 +1,4 @@
-# Sprint 1: Team Project Group 1 – Bauer
+# Sprint 1: Team Project Group 2 – Bauer
 
 ## Create Feature Pages for Volumental's Clients
 
