@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  background: white;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+header{
+  background: red;
+  padding: 20px;
+}
+.volumental_logo{
+  float: left;
+  display: block;
+  width: 100px;
+}
+
+.navbar-list{
+
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  float: right;
+}
+
+li{
+  margin: 10px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.hero-image{
+  margin-left: 0;
+  margin-right: 0;
+  display: block;
+  background: lightblue;
+  text-align: center;
+}
+
+.hero-image-inner img{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  background: lightpink;
+}
+
+.clear {
+  clear: both;
+}
