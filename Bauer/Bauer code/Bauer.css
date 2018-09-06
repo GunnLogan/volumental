@@ -12,50 +12,50 @@ html{
 
 header{
   background: white;
-  padding: 5px;
+  padding: 15px;
 }
 
 .volumental_logo{
   float: left;
   display: block;
   width: 100px;
-  margin: 10px;
+
 }
 
 ul{
   list-style: none;
   display: flex;
   float: right;
-  background: pink;
+  background: white;
   vertical-align: middle;
+
 }
 
 li{
-  margin: 10px;
+  padding-right:5px;
+  padding-left:5px;
+  display:inline-block;
 }
 
 a{
   color: black;
   text-decoration: none;
   font-weight:700;
-  letter-spacing: 3px;
-  font-size: 15px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  margin-left: 10px;
 }
 
-.hero-image{
+.hero-image {
+  margin-top: 10px;
   margin-left: 0;
   margin-right: 0;
   display: block;
-  background: lightblue;
-  text-align: center;
-}
-
-.hero-image-inner img{
-  margin-left: auto;
-  margin-right: auto;
-  background: lightpink;
   height: 540px;
-  opacity: 1
+  background-image: url("CI10.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .clear {
