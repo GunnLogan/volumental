@@ -13,6 +13,7 @@ html{
 header{
   background: white;
   padding: 15px;
+
 }
 
 .volumental_logo{
@@ -60,4 +61,67 @@ a{
 
 .clear {
   clear: both;
+}
+
+/* Bauer logo */
+
+#bauer-logo {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 50px 60px;
+
+}
+
+#bauer-logo img{
+  width: auto;
+  max-height: 50px;
+
+}
+
+/* text box */
+p{
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+  line-height: 1.5;
+  word-spacing: 5px;
+  margin: 5% 15%;
+
+}
+
+/* bauer img left and right */
+.bauer-img {
+  position: relative;
+  display: inline;
+  float: left;
+  text-align: center;
+  padding: 0px 10px;
+
+}
+
+.bauer-img img{
+  max-height: 480px;
+  width: auto;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  li {
+  flex: auto;
+  }
+  /* .bauer-img{
+    width: 100%;
+  } */
+}
+
+/* tablet */
+@media (min-width:600px) and (max-width: 900px){
+
+}
+
+/* phone */
+@media (max-width:600px){
+
 }
