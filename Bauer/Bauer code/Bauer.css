@@ -109,18 +109,20 @@ p{
   bottom: 0;
   right: 0;
   left: 0;
-
 }
-.footer a{
+
+.footer-info{
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer-info a{
   text-decoration: none;
+
 
 }
 
 /* media q */
-
-@media only screen and (max-width: 600px) {
-
-}
 
 /* tablet */
 @media (min-width:600px) and (max-width: 900px){
