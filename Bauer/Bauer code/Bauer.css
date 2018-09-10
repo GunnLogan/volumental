@@ -102,9 +102,9 @@ p{
 
 /* footer */
 .footer{
+  clear: both;
   border-top: solid 1px black;
   height: 220px;
-  position: absolute;
   width: 100%;
   bottom: 0;
   right: 0;
