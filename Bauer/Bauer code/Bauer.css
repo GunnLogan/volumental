@@ -83,21 +83,20 @@ p{
 }
 
 /* bauer img left and right */
-.bauer-img {
-  /* position: relative; */
-  display: block;
-  float: center;
-  text-align: center;
-  padding: 0px 10px;
+.bauer-img-box{
   margin-left: 6%;
   margin-right: 6%;
+  display: inline;
+  padding: 0 4px;
+}
 
+.bauer-img {
+  text-align: center;
 }
 
 .bauer-img img{
+  padding: 5px;
   max-height: 480px;
-  width: auto;
-
 }
 
 /* footer */
