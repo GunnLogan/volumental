@@ -106,6 +106,14 @@ p{
 
 }
 
+.footer{
+  border-top: solid 1px black;
+
+}
+.footer a{
+  text-decoration: none;
+
+}
 
 @media only screen and (max-width: 600px) {
   li {
