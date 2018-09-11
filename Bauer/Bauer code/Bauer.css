@@ -29,27 +29,38 @@ header{
 }
 
 .navbar-list{
-  padding-top: 30px;
-  display: flex;
-  float: right;
+ padding-top: 30px;
+ /* display: flex; */
+ float: right;
+}
+
+.link-item{
+ margin-right: 50px;
 }
 
 a{
-  color: black;
-  text-decoration: none;
-  font-weight:700;
-  letter-spacing: 4px;
-  font-size: 14px;
-  margin-left: 40px;
+ color: black;
+ text-decoration: none;
+ font-weight:700;
+ letter-spacing: 4px;
+ font-size: 14px;
 }
+
+/* media q for header and side margins */
+@media only screen and (max-width: 1200px) {
+  .navbar-list a{
+    margin-right: 20px;
+  }
+}
+
+/* media q for header and side margins */
 
 .hero-image {
   margin-top: 10px;
   margin-left: 6%;
   margin-right: 6%;
-  display: inline;
   height: 540px;
-  background-image: url("CI10.jpg");
+  background-image: url("CI22.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +70,6 @@ a{
 
 #bauer-logo {
   position: relative;
-  display: block;
   text-align: center;
   margin: 50px 60px;
 
@@ -71,15 +81,18 @@ a{
 
 }
 
+.container{
+  display: flex;
+}
 /* text box */
-p{
-  font-size: 13px;
+article p{
+  font-size: 15px;
   font-weight: 300;
   letter-spacing: 1.6px;
   line-height: 1.5;
   word-spacing: 5px;
-  margin: 5% 15%;
-
+  text-align: justify;
+  text-justify:auto
 }
 
 /* bauer img left and right */
@@ -87,6 +100,7 @@ p{
   margin-left: 6%;
   margin-right: 6%;
   display: inline;
+  float: left;
   padding: 0 4px;
 }
 
@@ -96,11 +110,11 @@ p{
 
 .bauer-img img{
   padding: 5px;
-  max-height: 480px;
+  max-height: 380px;
 }
 
 /* footer */
-.footer{
+footer{
   clear: both;
   border-top: solid 1px black;
   height: 220px;
@@ -110,16 +124,22 @@ p{
   left: 0;
 }
 
+
 .footer-info{
   text-align: center;
   padding-top: 15px;
 }
 
-.footer-info a{
-  text-decoration: none;
-
+p{
+  text-align: center;
+  color: black;
+  font-weight:600;
+  letter-spacing: 4px;
+  font-size: 12px;
+  padding-top: 20px;
 
 }
+
 
 /* media q */
 
