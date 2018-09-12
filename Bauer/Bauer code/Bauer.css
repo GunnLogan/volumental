@@ -83,9 +83,9 @@ a{
 
 .container{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   width: 100%;
   height: auto;
 
@@ -108,17 +108,16 @@ a{
 
 /* bauer img left and right */
 .bauer-media-box{
-  /* margin-left: 6%;
-  margin-right: 6%; */
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
+  flex-direction: row;
   width: 100%;
-  height: auto;
 }
 
  video{
-
+   height: 400px;
+   object-fit: scale-down;
  }
 
 .bauer-img {
@@ -127,8 +126,8 @@ a{
 
 .bauer-img img{
   padding: 5px;
-
-
+  height: 405px;
+  object-fit: scale-down;
 }
 
 /* footer */
