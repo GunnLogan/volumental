@@ -86,8 +86,10 @@ a{
   align-items: center;
   justify-content: center;
   flex-flow: column wrap;
-  width: 100%;
+  /* width: 100%; */
   height: auto;
+  margin: 0 6%;
+
 
 }
 /* text box */
@@ -104,30 +106,33 @@ a{
   line-height: 1.5;
   word-spacing: 5px;
   text-align: justify;
+  justify: auto;
 }
 
 /* bauer img left and right */
 .bauer-media-box{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  align-items: stretch;
   flex-direction: row;
-  width: 100%;
+  width: auto;
 }
 
  video{
-   height: 400px;
+   height: 450px;
    object-fit: scale-down;
    position: relative;
+   padding left: 2px;
  }
 
 .bauer-img {
   text-align: center;
+  padding-right: 2px;
 }
 
 .bauer-img img{
  /* padding: 3px; */
-  height: 400px;
+  height: 450px;
   /* object-fit: scale-down; */
 
 }
