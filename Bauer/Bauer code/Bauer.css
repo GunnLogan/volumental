@@ -56,14 +56,11 @@ a{
   }
 }
 
-/* media q for header and side margins */
-
 .hero-image {
   margin-top: 10px;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin: 0 6%;
   height: 540px;
-  background-image: url("volher.svg");
+  background-image: url("bauer-hero.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,34 +83,58 @@ a{
 
 .container{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: 0 6%;
+  background: yellow;
+
 }
+
 /* text box */
-article p{
+.text{
+  margin: 0 20% 0 20%;
+  height: auto;
+  align-items: center;
+  background: lightblue;
+}
+
+.text p{
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 1.6px;
   line-height: 1.5;
   word-spacing: 5px;
   text-align: justify;
-  text-justify:auto
+  text-justify: inter-word;
 }
 
-/* bauer img left and right */
-.bauer-img-box{
-  margin-left: 6%;
-  margin-right: 6%;
-  display: inline;
-  float: left;
-  padding: 0 4px;
+/* bauer img and video */
+.bauer-media-box{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  background: pink;
 }
+
+ video{
+   width: auto;
+   height: 200px;
+   position: relative;
+   padding left: 2px;
+   object-fit: cover;
+ }
 
 .bauer-img {
-  text-align: center;
+  position: relative;
+  padding-right: 2px;
 }
 
 .bauer-img img{
-  padding: 5px;
-  max-height: 380px;
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+
 }
 
 /* footer */
@@ -167,13 +188,14 @@ p{
 
 }
 
-.menu-icon-container {
+/* hamburger */
+.ham-container {
     display: none;
     cursor: pointer;
     margin-right: 10px;
 }
-@media (max-width: 879px) {
-  .menu-icon-container {
+@media (max-width: 767px) {
+  .ham-container {
     display: inline-block;
   }
   .link-item {
