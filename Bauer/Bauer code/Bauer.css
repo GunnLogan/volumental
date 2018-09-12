@@ -55,8 +55,6 @@ a{
   }
 }
 
-/* media q for header and side margins */
-
 .hero-image {
   margin-top: 10px;
   margin: 0 6%;
@@ -91,12 +89,13 @@ a{
   background: yellow;
 
 }
+
 /* text box */
 .text{
-  margin: 0 20%;
+  margin: 0 20% 0 20%;
   height: auto;
   align-items: center;
-  background: blue;
+  background: lightblue;
 }
 
 .text p{
@@ -106,10 +105,10 @@ a{
   line-height: 1.5;
   word-spacing: 5px;
   text-align: justify;
-  justify: auto;
+  text-justify: inter-word;
 }
 
-/* bauer img left and right */
+/* bauer img and video */
 .bauer-media-box{
   display: flex;
   flex-direction: row;
