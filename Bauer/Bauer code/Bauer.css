@@ -109,7 +109,7 @@ a{
 /* bauer img left and right */
 .bauer-media-box{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
   width: 100%;
@@ -118,6 +118,7 @@ a{
  video{
    height: 400px;
    object-fit: scale-down;
+   position: relative;
  }
 
 .bauer-img {
@@ -125,9 +126,10 @@ a{
 }
 
 .bauer-img img{
-  padding: 5px;
-  height: 405px;
-  object-fit: scale-down;
+ /* padding: 3px; */
+  height: 400px;
+  /* object-fit: scale-down; */
+
 }
 
 /* footer */
