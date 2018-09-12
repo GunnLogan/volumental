@@ -18,6 +18,8 @@ header{
   position: fixed;
   z-index: 1;
   top: 0;
+  left: 0;
+  right: 0;
 }
 
 .volumental_logo{
@@ -57,8 +59,7 @@ a{
 
 .hero-image {
   margin-top: 10px;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin: 0 6%;
   height: 540px;
   background-image: url("bauer-hero.gif");
   background-size: cover;
@@ -86,17 +87,16 @@ a{
   align-items: center;
   justify-content: center;
   flex-flow: column wrap;
-  /* width: 100%; */
-  height: auto;
   margin: 0 6%;
-
+  background: yellow;
 
 }
 /* text box */
 .text{
-  width: 80%;
+  margin: 0 20%;
   height: auto;
   align-items: center;
+  background: blue;
 }
 
 .text p{
@@ -112,28 +112,28 @@ a{
 /* bauer img left and right */
 .bauer-media-box{
   display: flex;
-  justify-content: center;
-  align-items: stretch;
   flex-direction: row;
   width: auto;
+  background: pink;
 }
 
  video{
-   height: 450px;
-   object-fit: scale-down;
+   width: auto;
+   height: 200px;
    position: relative;
    padding left: 2px;
+   object-fit: cover;
  }
 
 .bauer-img {
-  text-align: center;
+  position: relative;
   padding-right: 2px;
 }
 
 .bauer-img img{
- /* padding: 3px; */
-  height: 450px;
-  /* object-fit: scale-down; */
+  width: auto;
+  height: 200px;
+  object-fit: cover;
 
 }
 
