@@ -22,9 +22,14 @@
         <a class="link-item" href="https://www.volumental.com/press/"> Press</a>
         <a class="link-item" href="https://www.volumental.com/team/"> Team</a>
         <a class="link-item" href="https://www.volumental.com/contact/"> Contact</a>
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
       </nav>
 
- 
+
 
 </header>
 
@@ -76,5 +81,9 @@
 </footer>
 
 
-
+  <script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+      }
+  </script>
 </body>
