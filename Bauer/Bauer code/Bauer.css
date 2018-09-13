@@ -15,7 +15,7 @@ body {
 
 header{
   background: white;
-  width: 100%;
+  width: 95%;
   height: 48px;
   position: fixed;
   z-index: 1;
@@ -27,13 +27,10 @@ header{
 
 .volumental_logo{
   float: left;
-  display: block;
-  width: 100px;
+  padding-left: 8%;
 }
 
 .navbar-list{
-
- /* display: flex; */
  float: right;
 }
 
@@ -41,6 +38,7 @@ header{
  margin-right: 50px;
 }
 
+/* style for all links in header and footer */
 a{
  color: black;
  text-decoration: none;
@@ -49,7 +47,7 @@ a{
  font-size: 14px;
 }
 
-/* media q for header and side margins */
+/* media query for header and side margins */
 @media only screen and (max-width: 1200px) {
   .navbar-list a{
     margin-right: 20px;
@@ -57,14 +55,26 @@ a{
 }
 
 .hero-image {
-  margin-top: 10px;
   margin: 0 6%;
   height: 540px;
-  background-image: url("bauer-hero.gif");
+  background-image: url("./Images/bauer-hero.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   clear: both;
+  display: none;
+
+}
+.hero-image-small{
+  margin-top: 10px;
+  margin: 0 6%;
+  height: 400px;
+  background-image: url("./Images/hero-image-small.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  clear: both;
+  display: none;
 
 }
 
@@ -81,13 +91,6 @@ a{
 
 }
 
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column wrap;
-  margin: 0 64px;
-}
 
 /* text box */
 .text{
@@ -98,10 +101,11 @@ a{
 
 }
 
+/*  Bauer info text */
 .text p{
   font-size: 16px;
   font-weight: 500;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   letter-spacing: 1.6px;
   line-height: 1.5;
   word-spacing: 5px;
@@ -113,10 +117,12 @@ a{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
   overflow: hidden;
+  padding-top: 50px;
+  margin: 0 6%;
 }
 
+/* Responsive functions for image and video */
  .bauer-media-box > .bauer-video {
    max-height: 300px;
    min-width: 300px;
@@ -146,8 +152,6 @@ a{
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
-
-
 }
 
 /* footer */
@@ -159,22 +163,32 @@ footer{
   bottom: 0;
   right: 0;
   left: 0;
-  margin-top: 200px;
+  margin-top: 100px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
 }
 
-
-.footer-info{
+.footer-links{
   text-align: center;
   padding-top: 15px;
-
+  letter-spacing: 50px;
 }
 
 .footer-signup{
   display: flex;
   justify-content: center;
   align-items: baseline;
+  letter-spacing: 10px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  letter-spacing: 4px;
+  font-size: 13px;
+  padding-top: 20px;
 }
 
+/*  Newsletter signup */
 p{
   text-align: center;
   color: black;
@@ -182,41 +196,65 @@ p{
   letter-spacing: 4px;
   font-size: 13px;
   padding-top: 20px;
-
 }
 
+/* plus sign */
 .signup-img img{
   margin-left: 30px;
 }
 
+/* Media queries */
 
-/* media q */
+/* Desktop */
+@media (min-width: 722px){
+  .hero-image{
+    display: block;
+  }
+}
 
 /* tablet */
 @media (min-width:600px) and (max-width: 722px){
-
+ .footer-links {
+   display: flex;
+   flex-flow: column;
+   justify-content: space-around;
+ }
+ .hero-image-small{
+   display: block;
+ }
 }
 
 /* phone */
 @media (max-width:600px){
-
+  .footer-links {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+ }
+ .hero-image-small{
+  display: block;
+ }
+ .footer-signup{
+  max-width: 450px;
+ }
 }
 
-/* hamburger */
+/* hamburger menu*/
 .ham-container {
     display: none;
     cursor: pointer;
     margin-right: 10px;
 }
+
 @media (max-width: 767px) {
-  .ham-container {
-    display: inline-block;
+   .ham-container {
+   display: inline-block;
   }
-  .link-item {
-    display: none;
+   .link-item {
+   display: none;
   }
 }
-
+/*  hamburger menu lines & animation */
 .bar1, .bar2, .bar3 {
     width: 24px;
     height: 3px;
@@ -237,6 +275,7 @@ p{
     transform: rotate(45deg) translate(-6px, -6px);
 }
 
+/* navbar menu in mobile & animation */
 .menu {
   opacity: 0;
   display: flex;
@@ -258,7 +297,7 @@ p{
   text-decoration: none;
   text-align: center;
   font-size: 16px;
-  font-family: "Lato";
+  font-family: "Lato" sans-serif;
   font-weight: 600;
   flex: 0 1;
 }
