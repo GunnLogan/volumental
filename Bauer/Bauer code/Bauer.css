@@ -112,6 +112,11 @@ a{
   text-align: left;
 }
 
+/* bauer link to webpage */
+.bauer-link{
+  text-decoration: underline;
+}
+
 /* bauer img and video */
 .bauer-media-box{
   display: flex;
